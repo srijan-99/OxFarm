@@ -1,0 +1,2717 @@
+:root {
+    --primary-color: #ffd300;
+    --secondary-color: #a2d254;
+    --primary_gradient-color: linear-gradient(90deg, #a2d254, #ffd300);
+    /* --secondary_gradient-color: ; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #141414;
+    overflow-x:hidden;
+
+
+}
+
+body .px_0 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+body a {
+    text-decoration: none;
+}
+
+/* Header css Start */
+.Header {}
+
+.Header .navbar-brand .logo {
+    width: 200px;
+    height: auto;
+}
+
+.Header .headerbutton {
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+/* .Header .headerbutton:hover {
+    background: var(--primary_gradient-color);
+} */
+
+/* Header css End */
+/* Hero Section css Start */
+.Hero_Section {
+    background-image: linear-gradient(#04040433, #21252903);
+    /* background-image: linear-gradient(#04040433, #21252903), url(./images//homepage/herosection.svg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70vh;
+    padding: 20px 0px;
+}
+
+.Hero_Section .hero_Heading {
+    font-size: 46px;
+    text-wrap: wrap;
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Hero_Section .sub_heading {
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
+
+.Hero_Section .card {
+    /* background: linear-gradient(90deg, #0009 1%, #0000 96.95%), url(../images/homepage/cardimagehero.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    background: #ffffff1f;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.Hero_Section .card .card-heading {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #fff;
+    margin: 10px;
+}
+
+.Hero_Section .card .card-perograph {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ebebf599;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+
+.Hero_Section .card .buttonlist {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Hero_Section .card .buttonlist li {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 6px 8px;
+    background: #6c6c6c73;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    min-height: 50px;
+
+}
+
+.Hero_Section .card .buttonlist li .tophed {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+}
+
+.Hero_Section .card .buttonlist li .bottomp {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #ebebf599;
+}
+
+/* Farm And People Section Start */
+.Farm_People_Section {}
+
+.Farm_People_Section .heading {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Farm_People_Section .inputpart {
+    position: relative;
+    min-width: 266px;
+}
+
+.Farm_People_Section .inputpart .icon {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px
+}
+
+.Farm_People_Section .inputpart input {
+    padding-left: 40px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: #424141;
+    color: white;
+    height: 45px;
+    font-size: 14px;
+    box-shadow: none;
+    margin-top:20px;
+
+}
+
+.Farm_People_Section .inputpart input::placeholder {
+    color: #7b7a7a;
+}
+
+.Farm_People_Section .tabssec {
+    background-color: #272727;
+    border-radius: 30px;
+    padding: 6px 10px;
+    height: 45px;
+}
+
+.Farm_People_Section .tabssec .nav {
+    border-radius: 30px;
+}
+
+.Farm_People_Section .tabssec .nav .nav-item {}
+
+.Farm_People_Section .tabssec .nav .nav-item {}
+
+.Farm_People_Section .tabssec .nav .nav-link {
+    border-radius: 30px;
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9C9CA2;
+
+}
+
+.Farm_People_Section .tabssec .nav .nav-link.active {
+    background: var(--primary_gradient-color);
+    color: #000000;
+}
+
+.Farm_People_Section .buttonsec {
+    transition: all 0.3s ease-in-out;
+    border-radius: 30px;
+    padding: 5px 16px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Farm_People_Section .buttonsec .nav-pills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-bottom: 0;
+}
+
+.Farm_People_Section .buttonsec .nav-pills .nav-item {
+    padding: 0;
+    background: transparent;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-left: 8px !important;
+}
+
+.Farm_People_Section .buttonsec .nav-pills .nav-item .nav-link.active {
+    background-color: transparent;
+}
+
+.Farm_People_Section .buttonsec .nav-pills .nav-item .nav-link {
+    padding: 0;
+}
+
+.Farm_People_Section .buttonsec:hover {
+    background: #272727;
+}
+
+
+/* List Card start */
+.Farm_People_Section .listcard {
+    border-radius: 10px;
+    background: #1D232E;
+    text-decoration: none;
+}
+
+.Farm_People_Section .listcard .iconimage {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Farm_People_Section .listcard .contectsec .heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.Farm_People_Section .listcard .contectsec .heading span {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Farm_People_Section .listcard .contectsec .heading span svg {
+    width: 100%;
+    height: 100%;
+}
+
+.Farm_People_Section .listcard .contectsec ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Farm_People_Section .listcard .contectsec ul li {
+    background-color: #32394E;
+    font-size: 14px;
+    color: var(--primary-color);
+    padding: 6px 10px;
+    border-radius: 8px;
+
+}
+
+.Farm_People_Section .listcard .stats {}
+
+.Farm_People_Section .listcard .stats .tvf-stats {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup {
+    font-size: 14px;
+    color: #FFF3D4;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+.Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .lasttext {
+    font-size: 12px;
+    color: #616771;
+    font-weight: 500;
+}
+
+/* List Card End */
+
+/* Samll Card start css */
+.Farm_People_Section .smallcard {
+    border-radius: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+/* .Farm_People_Section .smallcard .card1:hover{
+    transform:scale(1);
+}
+.Farm_People_Section .smallcard .card1{
+    transform:scale(1.1);
+} */
+.Farm_People_Section .smallcard .card1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/homepage/smallcardimage.svg);
+}
+
+.Farm_People_Section .smallcard .card2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/homepage/banner.png);
+}
+
+.Farm_People_Section .smallcard .card3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/homepage/banner2.png);
+    object-fit: cover;
+}
+
+.Farm_People_Section .smallcard .card4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/homepage/banner3.png);
+}
+
+.Farm_People_Section .smallcard .card1,
+.Farm_People_Section .smallcard .card2,
+.Farm_People_Section .smallcard .card3,
+.Farm_People_Section .smallcard .card4 {
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+
+
+.Farm_People_Section .smallcard .image_Heading {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.Farm_People_Section .smallcard .image_Heading .Small_Card_Heading {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.Farm_People_Section .smallcard .image_Heading .Small_Card_Heading .firicon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Farm_People_Section .smallcard .card_icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Farm_People_Section .smallcard .SmallCardlistButton {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.Farm_People_Section .smallcard .SmallCardlistButton li {
+    font-size: 14px;
+    color: var(--primary-color);
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: #6c6c6c73;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.Farm_People_Section .smallcard .stats {}
+
+.Farm_People_Section .smallcard .stats .tvf-stats {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 0.5rem;
+    font-weight: 600
+}
+
+.Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .lasttext {
+    font-size: 12px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.Farm_People_Section .smallcard .button_image_Box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Farm_People_Section .smallcard .button_image_Box .viewbtn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: auto;
+    background: var(--primary_gradient-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 0.3rem;
+}
+
+.Farm_People_Section .smallcard .button_image_Box .imagelist {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.Farm_People_Section .smallcard .button_image_Box .imagelist>*:not(:first-child) {
+    margin-left: -7px;
+}
+
+.Farm_People_Section .smallcard .button_image_Box .imagelist li {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-header {
+    margin-top: 10px !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+  
+
+/* Small Card Css End */
+.buttonImagesec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonImagesec .viewbtn {
+    background: #11151C;
+    color: #616771;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttonImagesec .viewbtn:hover {
+    background: #11151C;
+}
+
+.buttonImagesec .viewbtn:active {
+    background: #11151C;
+}
+
+.buttonImagesec .imagelist {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+.buttonImagesec .imagelist li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.buttonImagesec .imagelist li img {
+    border-radius: 50%;
+}
+
+/* Farm And People Section End */
+
+/* Footer Css Start */
+footer {
+    background: linear-gradient(90deg, #0009 1%, #0000 96.95%), url(../images/footer/footersvg.svg);
+}
+
+footer .logo {
+    width: 100px;
+    height: fit-content;
+}
+
+footer .footerHeading {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+footer .footerlist {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .footerlist li {
+    margin-bottom: 8px;
+}
+
+footer .footerlist li a {
+    color: rgb(155, 155, 155);
+    font-size: 16px;
+    font-weight: 500;
+    overflow-wrap: break-word;
+    text-decoration: none;
+}
+
+footer .footerbottomheading {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 3px;
+    color: #7d7b7b;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) { /* Mobile view */
+    .logo-img {
+      width: 75%; /* Adjust this value to make it smaller */
+      max-width: 200px;
+      max-height: 150px;
+    }
+  }
+
+/* Footer Css End */
+/* Page2 Css Start */
+    {}
+
+.backtolistbtn {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff3d4;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.backtolistbtn:hover {
+    color: var(--primary-color);
+}
+
+/* updated css */
+.buttonGroup {
+    background-color: #1d232e;
+    border-radius: 30px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    width: fit-content;
+    padding: 8px 5px;
+}
+
+.buttonGroup .Page2btn {
+    font-size: 12px;
+    color: white;
+    background-color:1px solid red;
+    margin-left:-10px
+}
+
+.buttonGroup .Page2btn.active {
+    background: var(--primary_gradient-color);
+    color: black;
+    border-radius: 30px;
+}
+
+.page2Heading {
+    color: #fff3d4;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* end this */
+
+
+
+.Heading {
+    color: #fff3d4;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Heading span {
+    color: var(--primary-color);
+}
+
+.perograph {
+    font-size: 16px;
+    color: #fff3d4;
+    line-height: 29px;
+}
+
+.linkheading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff3d4;
+    margin-bottom: 10px;
+}
+
+
+
+/* updated css */
+.sociallink {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: -30px;
+
+}
+
+.sociallink li a i {
+    font-size: 28px;
+    color: #616771;
+
+}
+
+image {
+    max-height: 200px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.nav.firstNav {
+    display: flex;
+}
+
+.nav.firstNav .nav-item {}
+
+
+.nav.firstNav .nav-item:last-child .nav-link {
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+
+.nav.firstNav .nav-item .nav-link {
+    background-color: #11151c !important;
+    color: #616771;
+    display: block;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #181e27;
+}
+
+.nav.firstNav .nav-item .nav-link.active {
+    background-color: #1d232e !important;
+    color: white !important;
+}
+
+.tabsect {}
+
+.tabsect .buttonGroupThree {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.tabsect .buttonGroupThree button {
+    width: fit-content;
+    height: 40px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background: #1d232e;
+    color: var(--primary-color);
+}
+
+.tabsect .headingtab {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.numberlist {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-left: 30px;
+    width: 50%;
+
+}
+
+.numberlist li {
+    width: 48%;
+    margin-bottom: 15px;
+
+}
+
+.numberlist li .number {
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.numberlist li .namenumber {
+    font-size: 16px;
+    color: #fff3d4;
+    font-weight: 400;
+}
+
+.tabsect .card {
+    background: #11151c;
+    border: 1px solid #181e27;
+    border-radius: 4px;
+    margin: 0px 0;
+    padding: 20px;
+}
+
+.tabsect .card .headingiconGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabsect .card .headingiconGroup .leftside {}
+
+.tabsect .card .headingiconGroup .leftside .card-heading {
+    font-size: 20px;
+    color: #fff3d4;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.tabsect .card .headingiconGroup .leftside p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.tabsect .card .headingiconGroup .leftside p i {
+    color: #616771;
+    margin-left: 5px;
+}
+
+.tabsect .card .headingiconGroup .rightside {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tabsect .card .headingiconGroup .rightside button {
+    font-size: 25px;
+    color: #616771;
+    padding: 0;
+}
+
+.tabsect .card .checkGroup {
+    display: flex;
+    align-items: center;
+    border: 1px solid #161b24;
+    background: #161b24;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.tabsect .card .checkGroup .group {
+    width: 33.3337%;
+    height: 50px;
+}
+
+
+.tabsect .card .checkGroup .group .btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: white;
+    background-color: #1d232e;
+    border-color: #1d232e;
+}
+
+
+.tabsect .card .checkGroup .group label {
+    width: 100%;
+    border-radius: 0;
+    height: 40px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+    color: #97989a;
+}
+
+.tabsect .card .checkGroup .group label span svg .aggregator-logo-active {
+    fill: #c9cacc;
+}
+
+.tabsect .card .checkGroup .group label:checked span svg .aggregator-logo-active {
+    fill: #c9cacc;
+}
+
+
+.tabsect .card .checkGroup .group label span {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+
+}
+
+.tabsect .card .groupbuttontext {
+    margin-top: 0px;
+    background-color: #161b24;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 0;
+
+}
+
+.tabsect .card .plusbutton {
+    border: 2px solid #252525;
+    height: 35px;
+    top: -21px;
+    width: 35px;
+    left: 50px;
+    z-index: 9;
+    position: absolute;
+    background: #11151c !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    bottom: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tabsect .card .groupbuttontext .leftbutton {
+    display: flex;
+    align-items: center;
+    background-color: #1d232e;
+    max-width: 150px;
+    padding: 15px;
+}
+
+.tabsect .card .groupbuttontext .leftbutton .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabsect .card .groupbuttontext .leftbutton .modalbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.tabsect .card .groupbuttontext .leftbutton .modalbtn .samlltext {
+    font-size: 14px;
+    color: #616771;
+    font-weight: 400;
+}
+
+.tabsect .card .groupbuttontext .leftbutton .modalbtn .spn2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff3d4;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.tabsect .card .groupbuttontext .inputyGroup .form-control {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: #fff3d4;
+    text-align: end;
+    margin-bottom: 15px;
+}
+
+.tabsect .card .groupbuttontext .inputyGroup .inputGroup {
+    font-size: 14px;
+    color: #fff3d4;
+    text-align: end;
+}
+
+.tabsect .card .groupbuttontext .inputyGroup .inputGroup span {
+    color: var(--primary-color);
+}
+
+.tabsect .card .accodeaingroup {
+    background: #161b24;
+}
+
+.tabsect .card .accodeaingroup .accordion {
+    background: #161b24;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-item {
+    background: #161b24;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header {
+    background: #161b24;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    background: #161b24;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header .accordion-button .textAccGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header .accordion-button .textAccGroup .text {
+    font-size: 13px;
+    color: #fff3d4;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header .accordion-button .textAccGroup .text span {
+    font-size: 12px;
+    color: #616771;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-button {
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-button::after {
+    filter: invert(1);
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-body span {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.tabsect .card .accodeaingroup .accordion .accordion-body span a:hover {
+    color: #ffd300 !important;
+}
+
+.tabsect .card .walletbtn {
+    background: var(--primary_gradient-color);
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+/* Tab2 section in */
+.tab2buttonGroup {
+    width: 100%;
+}
+
+.tab2buttonGroup .nav {
+    width: 75%;
+    background: #1d232e;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.tab2buttonGroup .nav .nav-item {
+    width: 50%;
+    height: 35px;
+}
+
+.tab2buttonGroup .nav .nav-item .nav-link {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #616771;
+    transition: all 0.3s ease-in-out;
+    background: #1d232e;
+    border-radius: 0;
+    height: 35px;
+}
+
+.tab2buttonGroup .nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+.tab2buttonGroup .nav .nav-item .nav-link.active {
+    background: var(--primary_gradient-color);
+    color: black;
+}
+
+.tabsectV3Liquidtiy {}
+
+.tabsectV3Liquidtiy .card {
+    background: #11151c;
+    border: 1px solid #181e27;
+    border-radius: 4px;
+    margin: 0px 0;
+    padding: 20px;
+}
+
+.tabsectV3Liquidtiy .card .headingiconGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabsectV3Liquidtiy .card .headingiconGroup .leftside {}
+
+.tabsectV3Liquidtiy .card .headingiconGroup .leftside .card-heading {
+    font-size: 20px;
+    color: #fff3d4;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.tabsectV3Liquidtiy .card .headingiconGroup .leftside p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #616771;
+}
+
+.tabsectV3Liquidtiy .card .headingiconGroup .rightside {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tabsectV3Liquidtiy .card .headingiconGroup .rightside button {
+    font-size: 20px;
+    color: #616771;
+    padding: 0;
+
+}
+
+.tabsectV3Liquidtiy .card .headingiconGroup .rightside button i {}
+
+.tabsectV3Liquidtiy .card .checkheading {
+    background: #1d232e;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabsectV3Liquidtiy .card .checkheading .Inheading {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff3d4;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+.tabsectV3Liquidtiy .card .checkheading .checkicon {
+    color: #4cc35b;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 15px;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    width: 130px;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .iconimage {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .tokenheadmodalbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .tokenheadmodalbtn .headingmod {
+    font-size: 11px;
+    color: #616771;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .tokenheadmodalbtn .pandletext {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff3d4;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .swippebtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d232e;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .swippebtn i {
+    color: var(--primary-color);
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    width: 130px;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .iconimage {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .tokenheadmodalbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .tokenheadmodalbtn .headingmod {
+    font-size: 11px;
+    color: #616771;
+}
+
+.tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .tokenheadmodalbtn .pandletext {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff3d4;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.tabsectV3Liquidtiy .card .tablist {
+    margin-top: 15px;
+}
+
+.tabsectV3Liquidtiy .card .tablist .nav {
+    display: flex;
+    align-items: center;
+}
+
+.tabsectV3Liquidtiy .card .tablist .nav .nav-item {}
+
+.tabsectV3Liquidtiy .card .tablist .nav .nav-item .nav-link {
+    background-color: #1d232e;
+    border-color: transparent;
+    color: #616771;
+    min-width: 150px;
+    height: 35px;
+    border-radius: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.tabsectV3Liquidtiy .card .tablist .nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+.tabsectV3Liquidtiy .card .tablist .nav .nav-item .nav-link.active {
+    background-color: #f58b00;
+    color: #11151c;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext {
+    background: #161b24;
+    border: 1px solid #1d232e;
+    border-width: 2px !important;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 0;
+
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .card-body {
+    padding: 7px;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .menualHeading {
+    font-size: 14px;
+    color: #616771;
+    margin-bottom: 5px;
+
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .subHeadinM {
+    color: #fff3d4;
+    font-size: 13px;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .buttongrp {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #11151c;
+    border-radius: 3px;
+    height: 40px;
+    justify-content: center;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .buttongrp button {
+    padding: 0;
+    font-size: 14px;
+    color: #616771;
+    border-radius: 3px;
+    height: 30px;
+    width: fit-content;
+    padding: 0 5px;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .buttongrp button.active {
+    background: #1d232e;
+    color: #fff3d4;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .headings {
+    font-size: 14px;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .GroupMenualTab {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 5px;
+    background: transparent;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .GroupMenualTab button {
+    font-size: 14px;
+    background-color: #1d232e;
+    border-color: #1d232e;
+    color: #fff3d4;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #1d232e;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .GroupMenualTab button:hover {
+    background: #29303d;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .GroupMenualTab button.select {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .incressdicresssec {}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .incressdicresssec .textsecondary {
+    font-size: 12px;
+    color: #616771;
+    font-weight: 400;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .incressdicresssec .btn-input {
+    background-color: #161b24;
+    color: #fff3d4;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid #1d232e;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .incressdicresssec .btn-input:hover {
+    background-color: #29303d;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .incressdicresssec .btn-input:focus {
+    background-color: #29303d;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .incressdicresssec .btn-input:active {
+    background-color: #494e56;
+    border-color: #44484f;
+    color: #fff3d4;
+}
+
+.tabsectV3Liquidtiy .card .tablist .Menualtab .incressdicresssec .form-control {
+    height: 40px;
+    background-color: #181e27;
+    border: 1px solid #1d232e;
+    color: #fff3d4;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+
+
+.tabsectV3Liquidtiy .card .groupbuttontext {
+    margin-top: 5px;
+    background-color: #161b24;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 0;
+    position: relative;
+}
+
+.tabsectV3Liquidtiy .card .plusbutton {
+    border: 2px solid #252525;
+    height: 35px;
+    top: -21px;
+    width: 35px;
+    left: 50px;
+    z-index: 9;
+    position: absolute;
+    background: #11151c !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    bottom: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .leftbutton {
+    display: flex;
+    align-items: center;
+    background-color: #1d232e;
+    max-width: 150px;
+    padding: 15px;
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .leftbutton .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .leftbutton .modalbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .leftbutton .modalbtn .samlltext {
+    font-size: 14px;
+    color: #616771;
+    font-weight: 400;
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .leftbutton .modalbtn .spn2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff3d4;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .inputyGroup .form-control {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: #fff3d4;
+    text-align: end;
+    margin-bottom: 15px;
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .inputyGroup .inputGroup {
+    font-size: 14px;
+    color: #fff3d4;
+    text-align: end;
+}
+
+.tabsectV3Liquidtiy .card .groupbuttontext .inputyGroup .inputGroup span {
+    color: var(--primary-color);
+}
+
+.tabsectV3Liquidtiy .Estimatedcard {
+    margin-top: 8px;
+    border-radius: 6px;
+    background-color: #1d232e;
+    border: 1px solid #1b212b;
+    border-width: 2px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    flex-direction: row;
+}
+
+.tabsectV3Liquidtiy .Estimatedcard .leftheading {
+    color: #fff3d4;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tabsectV3Liquidtiy .Estimatedcard .leftheading span {
+    margin-right: 5px;
+    color: var(--primary-color);
+}
+
+.tabsectV3Liquidtiy .Estimatedcard .leftheading small {
+    font-size: 12px;
+    color: #616771;
+}
+
+.tabsectV3Liquidtiy .Estimatedcard .quectiobtn {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tabsectV3Liquidtiy .Estimatedcard .quectiobtn span {
+    color: #616771;
+    margin-left: 5px;
+}
+
+/* Graph Css Start */
+.tabsectV3Liquidtiy .graphCard {
+    background-color: #1d232e;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.tabsectV3Liquidtiy .graphCard .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: #11151c;
+    border-radius: 4px;
+}
+
+.tabsectV3Liquidtiy .graphCard .card-header .card-headerheading {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.tabsectV3Liquidtiy .graphCard .card-header .card-headerheading span {
+    color: #fff3d4;
+}
+
+.tabsectV3Liquidtiy .graphCard .card-header .buttongroupthree {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.tabsectV3Liquidtiy .graphCard .card-header .buttongroupthree .garphbtn {
+    color: #fff3d4;
+    font-size: 17px;
+    padding: 0;
+}
+
+.tabsectV3Liquidtiy .graphCard .inputformsec {
+    font-size: 13px;
+    color: #616771;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 5px;
+}
+
+.tabsectV3Liquidtiy .graphCard .inputformsec input {
+    background-color: #181e27;
+    border: none;
+    color: #fff3d4;
+    width: 70px;
+    height: 25px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.tabsectV3Liquidtiy .graphCard .textlinesection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.tabsectV3Liquidtiy .graphCard .textlinesection .textline {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 12px;
+    color: #616771;
+}
+
+.tabsectV3Liquidtiy .graphCard .textlinesection .textline .line1 {
+    width: 30px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 40px;
+}
+
+.tabsectV3Liquidtiy .graphCard .textlinesection .textline .line2 {
+    width: 30px;
+    height: 3px;
+    background: #dc3545;
+    border-radius: 40px;
+}
+
+.tabsectV3Liquidtiy .graphCard .textlinesection .textline .box {
+    width: 25px;
+    height: 15px;
+    background: rgba(255, 175, 29, 0.07);
+    border-radius: 2px;
+    border: 1px solid rgba(255, 175, 29, 0.2);
+}
+
+.tabsectV3Liquidtiy .graphCard .bottomHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #1b212b;
+    margin-top: 15px;
+}
+
+.tabsectV3Liquidtiy .graphCard .bottomHeading .leftheading {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff3d4;
+}
+
+.tabsectV3Liquidtiy .graphCard .bottomHeading .rightheading {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tabsectV3Liquidtiy .graphCard .bottomHeading .rightheading span {
+    color: #fff3d46f;
+    cursor: pointer;
+}
+
+.tabsectV3Liquidtiy .graphCard .bottomlist {}
+
+.tabsectV3Liquidtiy .graphCard .bottomlist .listin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.tabsectV3Liquidtiy .graphCard .bottomlist .listin .textlist {
+    font-size: 14px;
+    color: #fff3d4;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+.btncONNECTwALLET {
+    border-radius: 8PX;
+    background: var(--primary_gradient-color);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+
+}
+
+/* Page2 Css End */
+
+/* Responsive Css Start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+    body .px_0 {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .Header .navbar-brand .logo {
+        width: 160px;
+    }
+
+    .Header .navbar-toggler {
+        border: 0;
+    }
+
+    .Header .navbar-toggler .navbar-toggler-icon {
+        color: white;
+    }
+
+    .Hero_Section {
+        height: 100%;
+    }
+
+    .Hero_Section .hero_Heading {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .Hero_Section .sub_heading {
+        font-size: 16px;
+    }
+
+    .Hero_Section .card .card-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .Hero_Section .card .card-perograph {
+        color: white;
+    }
+
+    .Hero_Section .card .buttonlist {}
+
+    .Hero_Section .card .buttonlist li {
+        width: 30%;
+    }
+
+    .Farm_People_Section .form {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: start !important;
+        margin-bottom: 10px;
+    }
+
+    .Farm_People_Section .form .inputpart {
+        width: 60%;
+        order: 1;
+        min-width: unset;
+    }
+
+    .Farm_People_Section .form .tabssec {
+        width: 100%;
+        order: 3;
+    }
+
+    .Farm_People_Section .form .buttonsec {
+        width: 30%;
+        order: 2;
+    }
+
+    .Farm_People_Section .inputpart input {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 30px;
+    }
+
+    .Farm_People_Section .inputpart .icon {
+        width: 40px;
+        height: 32px;
+    }
+
+    .Farm_People_Section .listcard .iconimage {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Farm_People_Section .listcard .contectsec .heading {}
+
+    .Farm_People_Section .listcard .contectsec ul li {
+        font-size: 13px;
+        padding: 6px 7px;
+    }
+
+    .Farm_People_Section .listcard .responsivecolumkn {
+        flex-direction: column;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats {}
+
+    .Farm_People_Section .listcard .stats {}
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .icon i {
+        font-size: 11px;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup {
+        font-size: 12px;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .lasttext {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec {
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec .imagelist {
+        margin-bottom: 0;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec .imagelist li {
+        width: 25px;
+        height: 25px;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec .viewbtn {
+        font-size: 12px;
+    }
+
+    .Farm_People_Section .smallcard .SmallCardlistButton {
+        padding-left: 0;
+        margin-top: 8px;
+    }
+
+    .Farm_People_Section .smallcard .SmallCardlistButton li {
+        font-size: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup {
+        font-size: 12px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .icon i {
+        font-size: 10px;
+    }
+
+    .Farm_People_Section .smallcard .card1,
+    .body .Farm_People_Section .smallcard .card2,
+    .body .Farm_People_Section .smallcard .card3,
+    .body .Farm_People_Section .smallcard .card4,
+    .body {
+        padding: 0px;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .lasttext {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /* Footer css */
+    footer .logo {
+        width: 160px;
+    }
+
+    footer .footerHeading {
+        font-size: 20px;
+    }
+
+    footer .footerlist li a {
+        font-size: 13px;
+    }
+
+    footer .footerbottomheading {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+    /* Footer css */
+    /* Page Css start */
+    .buttonGroup {
+        height: 32px;
+        width: 100%;
+    }
+
+    .buttonGroup btn {
+        padding: 10px 10px;
+        font-size: 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 30px;
+        line-height: 8px;
+        width: 48%;
+    }
+
+    Heading {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    perograph {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    image {
+        max-height: 150px;
+        max-width: 250px;
+    }
+
+    .nav.firstNav {
+        width: 100%;
+    }
+
+    .nav.firstNav .nav-item {
+        width: 33%;
+    }
+
+    .nav.firstNav .nav-item .nav-link {
+        font-size: 13px;
+        white-space: nowrap;
+        padding: 9px 6px;
+    }
+
+    .tabsect .headingtab {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .tabsect .numberlist li .number {
+        font-size: 20px;
+    }
+
+    .tabsect .numberlist li .namenumber {
+        font-size: 13px;
+    }
+
+    .tabsect .card {
+        padding: 5px;
+    }
+
+    .tabsect .card .headingiconGroup .leftside p {
+        font-size: 14px;
+    }
+
+    .tabsect .card .headingiconGroup .rightside button {
+        font-size: 18px;
+    }
+
+    .tabsect .card .checkGroup .group {
+        height: 40px;
+    }
+
+    .tabsect .card .checkGroup .group label {
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .tabsect .card .checkGroup .group label span svg {
+        width: 66px;
+    }
+
+    .tabsect .card .checkGroup .group label span {
+        width: 12px;
+    }
+
+    .tabsect .card .checkGroup .group .smallsvg span {
+        width: 100px;
+    }
+
+    .tabsect .card .groupbuttontext {
+        height: 54px;
+    }
+
+    .tabsect .card .groupbuttontext .leftbutton .modalbtn .samlltext {
+        font-size: 10px;
+    }
+
+    .tabsect .card .groupbuttontext .leftbutton .modalbtn .spn2 {
+        font-size: 11px;
+    }
+
+    .tabsect .card .groupbuttontext .inputyGroup .form-control {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .tabsect .card .groupbuttontext .leftbutton {
+        max-width: 110px;
+        padding: 4px;
+    }
+
+    .tabsect .card .groupbuttontext .leftbutton .icon {
+        height: 35px;
+        width: 35px;
+    }
+
+    .tabsect .card .groupbuttontext .inputyGroup .inputGroup {
+        font-size: 13px;
+    }
+
+    .tabsect .card .plusbutton {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .tabsect .card .walletbtn {
+        height: 40px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+
+    .tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header .accordion-button .textAccGroup .text span {
+        font-size: 9px;
+    }
+
+    .tabsect .card .accodeaingroup .accordion .accordion-item .accordion-header .accordion-button .textAccGroup .text {
+        font-size: 10px;
+    }
+
+    .tabsect .card .accodeaingroup .accordion .accordion-button::after {
+        width: 19px;
+    }
+
+    .tabsect .card .accodeaingroup .accordion .accordion-body span {
+        font-size: 10px;
+    }
+
+    .tabsect .card .accodeaingroup .accordion .accordion-body {
+        padding: 0px;
+    }
+
+    .tabsectV3Liquidtiy .card .headingiconGroup .leftside p {
+        font-size: 13px;
+    }
+
+    .tabsectV3Liquidtiy .card .headingiconGroup .leftside .card-heading {
+        font-size: 18px;
+    }
+
+    .tabsectV3Liquidtiy .card {
+        padding: 5px;
+    }
+
+    .tabsectV3Liquidtiy .card .card-body {
+        padding: 5px;
+    }
+
+    .tabsectV3Liquidtiy .card .headingiconGroup .rightside button i {
+        font-size: 14px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .iconimage {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .tokenheadmodalbtn .pandletext {
+        font-size: 12px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .tokenheadmodalbtn .pandletext span {
+        display: none;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent {
+        width: 100px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent {
+        width: 100px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .iconimage {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .tokenheadmodalbtn .pandletext {
+        font-size: 12px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .tokenheadmodalbtn .pandletext span {
+        display: none;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup {
+        gap: 0.5rem;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .leftcontent .tokenheadmodalbtn .headingmod {
+        display: none;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .rightcontent .tokenheadmodalbtn .headingmod {
+        display: none;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .swippebtn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tabsectV3Liquidtiy .card .iconImageSwippeGroup .swippebtn i {
+        font-size: 11px;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .nav .nav-item .nav-link {
+        min-width: 95px;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .nav {
+        margin-bottom: 25px !important;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .Menualtab .GroupMenualTab {
+        flex-wrap: wrap;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .Menualtab .GroupMenualTab button {
+        font-size: 11px;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .subHeadinM {
+        font-size: 11px;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .buttongrp button {
+        font-size: 11px;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .buttongrp {
+        height: 33px;
+    }
+
+    .tabsectV3Liquidtiy .card .tablist .Menualtab .cardgrouptext .menualHeading {
+        font-size: 11px;
+    }
+
+    .tabsectV3Liquidtiy .card .groupbuttontext {
+        height: 70px;
+    }
+
+    .tabsectV3Liquidtiy .card .groupbuttontext .leftbutton .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .tabsectV3Liquidtiy .card .groupbuttontext .leftbutton .modalbtn .samlltext {
+        display: none;
+    }
+
+    .tabsectV3Liquidtiy .card .groupbuttontext .leftbutton .modalbtn .spn2 i {
+        display: none;
+    }
+
+    .tabsectV3Liquidtiy .card .groupbuttontext .inputyGroup .form-control {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+
+    .tabsectV3Liquidtiy .Estimatedcard .leftheading {
+        font-size: 11px;
+    }
+
+    .tabsectV3Liquidtiy .Estimatedcard .leftheading small {
+        font-size: 10px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .card-header .card-headerheading {
+        font-size: 12px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .card-header .buttongroupthree .garphbtn {
+        font-size: 13px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .textlinesection .textline {
+        font-size: 10px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .textlinesection .textline .line1 {
+        width: 25px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .textlinesection .textline .line2 {
+        width: 25px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .bottomHeading .leftheading {
+        font-size: 12px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .bottomHeading .rightheading {
+        font-size: 12px;
+    }
+
+    .tabsectV3Liquidtiy .graphCard .bottomlist .listin .textlist {
+        font-size: 12px;
+    }
+
+    .btncONNECTwALLET {
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .tabsect .buttonGroupThree button {
+        height: 30px;
+        font-size: 13px;
+        line-height: 9px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .Header .navbar-brand .logo {
+        width: 160px;
+    }
+
+    .Header .navbar-toggler {
+        border: 0;
+    }
+
+    .Header .navbar-toggler .navbar-toggler-icon {
+        color: white;
+    }
+
+    .Hero_Section {
+        height: 100%;
+    }
+
+    .Hero_Section .hero_Heading {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .Hero_Section .sub_heading {
+        font-size: 16px;
+    }
+
+    .Hero_Section .card .card-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .Hero_Section .card .card-perograph {
+        color: white;
+    }
+
+    .Hero_Section .card .buttonlist {}
+
+    .Hero_Section .card .buttonlist li {
+        width: 30%;
+    }
+
+    .Farm_People_Section .form {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: start !important;
+        margin-bottom: 10px;
+    }
+
+    .Farm_People_Section .form .inputpart {
+        width: 60%;
+        order: 1;
+        min-width: unset;
+    }
+
+    .Farm_People_Section .form .tabssec {
+        width: 100%;
+        order: 3;
+    }
+
+    .Farm_People_Section .form .buttonsec {
+        width: 30%;
+        order: 2;
+    }
+
+    .Farm_People_Section .inputpart input {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 30px;
+    }
+
+    .Farm_People_Section .inputpart .icon {
+        width: 40px;
+        height: 32px;
+    }
+
+    .Farm_People_Section .listcard .iconimage {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Farm_People_Section .listcard .contectsec .heading {}
+
+    .Farm_People_Section .listcard .contectsec ul li {
+        font-size: 13px;
+        padding: 6px 7px;
+    }
+
+    .Farm_People_Section .listcard .responsivecolumkn {
+        flex-direction: column;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats {}
+
+    .Farm_People_Section .listcard .stats {}
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .icon i {
+        font-size: 11px;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup {
+        font-size: 12px;
+    }
+
+    .Farm_People_Section .listcard .stats .tvf-stats .buttontextGroup .lasttext {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec {
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec .imagelist {
+        margin-bottom: 0;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec .imagelist li {
+        width: 25px;
+        height: 25px;
+    }
+
+    .Farm_People_Section .listcard .buttonImagesec .viewbtn {
+        font-size: 12px;
+    }
+
+    .Farm_People_Section .smallcard .SmallCardlistButton {
+        padding-left: 0;
+        margin-top: 8px;
+    }
+
+    .Farm_People_Section .smallcard .SmallCardlistButton li {
+        font-size: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup {
+        font-size: 12px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .icon i {
+        font-size: 10px;
+    }
+
+    .Farm_People_Section .smallcard .card1,
+    .body .Farm_People_Section .smallcard .card2,
+    .body .Farm_People_Section .smallcard .card3,
+    .body .Farm_People_Section .smallcard .card4,
+    .body {
+        padding: 0px;
+    }
+
+    .Farm_People_Section .smallcard .stats .tvf-stats .buttontextGroup .lasttext {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /* Footer css */
+    .footer .logo {
+        width: 160px;
+    }
+
+    .footer .footerHeading {
+        font-size: 20px;
+    }
+
+    .footer .footerlist li a {
+        font-size: 13px;
+    }
+
+    .footer .footerbottomheading {
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+ 
+
+    /* Footer css */
+    /* Page Css start */
+
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Pushes logo left and button right */
+}
+
+/* Wrapper for the custom connect button */
+.customConnectBtn {
+    /* display: flex; */
+    justify-content: flex-end;
+    background: linear-gradient(45deg, #8fd41f 0%, #ffe569 40%);
+    margin-left:10px;
+    font-weight:600;
+
+    border-radius: 25px;
+    width: fit-content;
+  
+    height: 40px;
+    margin-top: -3px;
+    margin-left:4px
+}
+
+
+
+
+
+
+/* Style the ConnectButton inside customConnectBtn */
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {}
+
+@media (min-width: 992px) and (max-width: 1124.99px) {}
+
+@media (min-width: 1125px) and (max-width: 1200.99px) {}
+
+@media (min-width: 1201px) and (max-width: 1400px) {}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Pushes logo left and button right */
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+/* Wrapper for the custom connect button */
+.customConnectBtn {
+
+    justify-content: flex-end;
+    background: linear-gradient(45deg, #8fd41f 0%, #ffe569 40%);
+
+    border-radius: 25px;
+    width: fit-content;
+    border: none;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+
+
+}
+
+.disconnect {
+    border: 1px solid yellowgreen;
+    margin-top: 10px;
+    width: fit-content;
+    margin-right: -15px
+}
+
+
+.custom-wallet-btn-dropdown {
+    background: transparent !important;
+    /* Make background transparent */
+    border: none;
+
+}
+
+/* Icon Styling */
+#dropdown-basic {
+    color: black
+}
+.dropdown-toggle::after{
+    color:black
+}
+
+#root > div > div > div:nth-child(2) > div.row.pb-md-5.pb-3 > div:nth-child(2) > ul > li {
+    margin: 0 20px;
+    /* margin-left: 0; */
+    /* padding-left: 0; */
+}
+
+#root > div > div > div:nth-child(2) > div.row.pb-md-5.pb-3 > div:nth-child(2) > ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#root > div > div > div:nth-child(2) > div.MuiStack-root.css-pl8gqh-MuiStack-root {
+    width: 100%;
+}
+
+/* OX header css  */
+.mobile-logo{
+    display:none;
+}
+@media(max-width:768px){
+    .mobile-logo{
+        display:block;
+        text-align:center;
+        margin-right:50px;
+        flex:1
+    }
+    .customConnectBtn-main{
+        margin-right: 20px;
+        flex:1
+     
+
+    }
+  
+
+}
+
+/* For hamburger in ox header for mobile view only */
+
+.ox-hamburger {
+    cursor: pointer;
+    display: none; /* Initially hidden */
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Transition when toggled */
+  .ox-hamburger:not(.open) .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .ox-hamburger:not(.open) .bar2 {
+    opacity: 0;
+  }
+  
+  .ox-hamburger:not(.open) .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  
+  
+  /* Show hamburger on smaller screens */
+  @media (max-width: 768px) {
+    .ox-hamburger {
+      display: block !important;
+
+    }
+   
+  }
+/* 
+  Responsive design for ox header in the mobile view */
+  @media (max-width:768px) {
+    .mobile-logo{
+    
+        width:10px
+
+      
+
+    }
+    .mobile-logo img {
+        width: 110px !important; 
+        height: 39px !important;
+
+      
+     
+    }
+    .customConnectBtn{
+        width:140px;
+        padding-right:25px;
+        margin-right:30px;
+        padding-left:-9px
+   
+
+    }
+    .vent-header{
+        width:100vw;
+        align-items:center
+    
+    }
+    .vent-header-section{
+        margin-left:-15px;
+        align-items: center;
+    }
+    .bnb-section{
+        width:100vw;
+        align-items: center;
+    }
+    .farm-btn{
+        
+        white-space:nowrap;
+        text-align:center;
+       width:fit-content;
+       margin-right:10px
+    }
+    .headingtab{
+    
+        text-align:center
+    }
+    .numberlist{
+    
+        text-align:center
+    }
+    .sociallink{
+        text-align:center;
+        margin-left:-25px !important;
+    }
+   
+    
+    
+    
+
+    
+  }
+
+  @media (min-width: 1550px) {
+   
+    #root > div > div > div > div.row.pb-md-5.pb-3{
+        margin-left:250px !important;
+    }
+    #root > div > div > div > div.MuiStack-root.css-pl8gqh-MuiStack-root{
+        justify-content: center;
+    }
+    #root > div > div > div > div:nth-child(4) > div:nth-child(2){
+        margin-left:400px
+    }
+    #root > div > div > div > div:nth-child(4){
+        margin-left:100px;
+    }
+    #root > div > div > div > div:nth-child(4) > div:nth-child(1){
+        margin-right:350px !important;
+  
+    }
+    
+  }
+  
+
+ 
+
+  
+
+
+  
+
+

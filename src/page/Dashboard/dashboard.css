@@ -1,0 +1,234 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #d6f7bc;
+}
+
+.dashboards-container {
+  padding: 20px;
+}
+
+/* Header Section */
+.dashboards-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+.dashboards-header h1 {
+  margin: 0;
+}
+
+.wallet-cards {
+  display: flex;
+  gap: 20px;
+  flex: 2;
+  color: #ffff;
+}
+
+.card {
+  background-color: #1e1e1e;
+  flex: 1;
+  padding: 20px;
+  border-radius: 16px;
+  border: 2px solid #3a3b26;
+  height:300px;
+  width:300px
+}
+
+.user-info-section {
+  display: flex;
+  gap: 20px;
+
+  flex-wrap: wrap;
+  flex:1;
+  height:300px
+}
+
+.user-card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #ffffff;
+}
+
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #666;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-card {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 20px;
+  border-radius: 24px;
+  box-shadow: 0 4px 6px #3a3b26;
+  transition: transform 0.3s ease;
+  height: 150px;
+}
+
+.stat-card:hover {
+  transform: scale(1.05);
+}
+
+.stat-card-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-data-content {
+  text-align: center;
+}
+
+.card-data-icon {
+  margin-bottom: 30px;
+}
+
+.additional-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.reward-card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+.reward-card button {
+  background-color: #3a3b26;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reward-card button:hover {
+  background-color: #8bc34a;
+}
+
+
+/* new css user info */
+
+
+/* Styles for the user info section */
+.user-info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  
+
+  
+}
+
+/* Styles for the user card */
+.user-card {
+  background-color: #121213;
+  border: 1px solid rgba(55, 65, 81, 0.6); /* border-neutral-800/60 */
+  border-radius: 1.5rem; /* rounded-3xl */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 300px;
+  height:300px
+}
+
+/* Styles for the avatar container */
+.user-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Avatar styles */
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px; /* w-20 */
+  height: 80px; /* h-20 */
+  border-radius: 50%;
+  background-color: #4b5563; /* bg-neutral-600 */
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+/* Styles for the User ID text */
+.user-id-text {
+  color: #9ca3af; /* text-neutral-400 */
+  font-size: 0.75rem; /* text-xs */
+  margin-bottom: 8px;
+}
+
+/* Styles for the User Name */
+.user-name {
+  font-weight: 600; /* font-semibold */
+  font-size: 1.125rem; /* text-lg */
+  color: #e5e7eb; /* White color for the username */
+  margin-bottom: 16px;
+}
+
+/* Styles for the user details section */
+.user-details {
+  width: 100%;
+  color: #d1d5db; /* text-neutral-500 */
+  font-size: 0.875rem; /* text-sm */
+}
+
+/* Styles for each details row */
+.details-row {
+  margin-bottom: 8px;
+}
+
+/* Styles for the referrer link */
+.referrer-link {
+  background-color: #10b981; /* bg-primaryGreen */
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 0.875rem; /* text-sm */
+  color: #000000;
+  cursor: pointer;
+  font-weight: 500; /* font-medium */
+  text-decoration: none;
+}
+
+.referrer-link:hover {
+  background-color: #059669; /* Slightly darker green on hover */
+}
+
+

@@ -1,0 +1,78 @@
+.card1 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 16px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image_Heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .card_icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .Small_Card_Heading {
+    font-size: 18px;
+    margin-left: 8px;
+  }
+  
+  .SmallCardlistButton {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .SmallCardlistButton li {
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .button_image_Box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .imagelist {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .imagelist li img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .viewbtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
